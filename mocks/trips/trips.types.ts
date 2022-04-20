@@ -1,5 +1,6 @@
 export interface Trip {
     id: number;
+    thumbnailUrl: string;
     countries: number;
     days: number;
     title: string;
