@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "countries": 11,
+    "days": 25,
+    "title": "Barcelona",
+    "rate": 4.4,
+    "minimalPrice": 2.87,
+    "previousPrice": 4.5
+  },
+  {
+    "id": 2,
+    "countries": 4,
+    "days": 13,
+    "title": "Paris",
+    "rate": 4.1,
+    "minimalPrice": 132.87,
+    "previousPrice": 152.5
+  },
+  {
+    "id": 3,
+    "countries": 3,
+    "days": 14,
+    "title": "Rome",
+    "rate": 3.4,
+    "minimalPrice": 21.87,
+    "previousPrice": 46.5
+  },
+  {
+    "id": 4,
+    "countries": 11,
+    "days": 25,
+    "title": "Dubai",
+    "rate": 4.8,
+    "minimalPrice": 212.87,
+    "previousPrice": 254.5
+  }
+]
