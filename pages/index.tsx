@@ -5,6 +5,7 @@ import { Trips } from "./api/trips";
 const Home: NextPage<{ data: Trips }> = ({ data }) => {
   return (
     <div>
+      <p>Hello</p>
       {data.map((trip) => (
         <div key={trip.id}>{trip.title}</div>
       ))}
