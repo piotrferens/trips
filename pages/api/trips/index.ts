@@ -1,19 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import trips from '../../../mocks/trips.json'
-
-export type Trips = Array<{
-  id: number;
-  countries: number;
-  days: number;
-  title: string;
-  rate: number;
-  minimalPrice: number;
-  previousPrice: number;
-}>
+import { tripsMocks, Trip } from '../../../mocks'
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Trips>
+  res: NextApiResponse<Array<Trip>>
 ) {
-  res.status(200).json(trips)
+  res.status(200).json(tripsMocks)
 }
