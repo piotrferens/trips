@@ -1,17 +1,18 @@
 import type { NextPage } from "next";
 import { GetServerSideProps } from "next";
+import { Trips } from "./api/trips";
 
-const Home: NextPage = ({ data }: any) => {
+const Home: NextPage<{ data: Trips }> = ({ data }) => {
   return (
     <div>
-      {data.map((a) => (
-        <div key={a.id}>{a.title}</div>
+      {data.map((trip) => (
+        <div key={trip.id}>{trip.title}</div>
       ))}
     </div>
   );
 };
 
-export const getServerSideProps: GetServerSideProps = async (context) => {
+export const getServerSideProps: GetServerSideProps = async () => {
   const data = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/trips`).then((res) =>
     res.json()
   );
@@ -21,4 +22,5 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     props: { data },
   };
 };
+
 export default Home;

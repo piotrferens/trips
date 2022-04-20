@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import trips from '../../../mocks/trips.json'
 
-type Trips = Array<{
+export type Trips = Array<{
   id: number;
   countries: number;
   days: number;
