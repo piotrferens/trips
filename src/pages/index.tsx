@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
-import { GetServerSideProps } from "next";
+import type { NextPage } from 'next';
+import { GetServerSideProps } from 'next';
 
-import { Trip } from "../mocks";
+import { Trip } from '../mocks';
 
 const Home: NextPage<{ data: Array<Trip> }> = ({ data }) => {
   return (
@@ -14,10 +14,7 @@ const Home: NextPage<{ data: Array<Trip> }> = ({ data }) => {
 };
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const data = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/trips`).then((res) =>
-    res.json()
-  );
-
+  const data = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/trips`).then((res) => res.json());
 
   return {
     props: { data },

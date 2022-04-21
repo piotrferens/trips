@@ -4,6 +4,10 @@ const nextConfig = {
   images: {
     domains: ['media.istockphoto.com'],
   },
-}
+  swcMinify: true,
+  experimental: {
+    emotion: true,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
