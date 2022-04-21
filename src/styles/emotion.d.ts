@@ -7,5 +7,10 @@ declare module '@emotion/react' {
       desktop: number;
     };
     spacing: Array<string>;
+    colors: {
+      black: string;
+      gray: string;
+      yellow: string;
+    };
   }
 }

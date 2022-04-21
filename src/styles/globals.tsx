@@ -11,6 +11,13 @@ export const globalStyles = (
           Droid Sans, Helvetica Neue, sans-serif;
       }
 
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
       * {
         box-sizing: border-box;
       }
