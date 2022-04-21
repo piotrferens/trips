@@ -1,24 +1,20 @@
-import type { NextPage } from 'next';
-import { GetServerSideProps } from 'next';
+import type { InferGetServerSidePropsType } from 'next';
+import { fetchTrips } from 'api';
 
-import { Trip } from '../mocks';
+export const getServerSideProps = async () => {
+  try {
+    const trips = await fetchTrips();
 
-const Home: NextPage<{ data: Array<Trip> }> = ({ data }) => {
-  return (
-    <div>
-      {data.map((trip) => (
-        <div key={trip.id}>{trip.title}</div>
-      ))}
-    </div>
-  );
+    return {
+      props: { trips },
+    };
+  } catch {
+    return { props: { trips: null } };
+  }
 };
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  const data = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/trips`).then((res) => res.json());
-
-  return {
-    props: { data },
-  };
-};
+const Home = ({ trips }: InferGetServerSidePropsType<typeof getServerSideProps>) => (
+  <div>{trips ? trips.map((trip) => <div key={trip.id}>{trip.title}</div>) : 'Something went wrong'}</div>
+);
 
 export default Home;
