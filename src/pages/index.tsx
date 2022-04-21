@@ -1,5 +1,6 @@
 import type { InferGetServerSidePropsType } from 'next';
 import { fetchTrips } from 'api';
+import { Home } from 'ui';
 
 export const getServerSideProps = async () => {
   try {
@@ -13,8 +14,8 @@ export const getServerSideProps = async () => {
   }
 };
 
-const Home = ({ trips }: InferGetServerSidePropsType<typeof getServerSideProps>) => (
-  <div>{trips ? trips.map((trip) => <div key={trip.id}>{trip.title}</div>) : 'Something went wrong'}</div>
-);
+export type HomePageProps = InferGetServerSidePropsType<typeof getServerSideProps>;
 
-export default Home;
+const HomePage = ({ trips }: HomePageProps) => <Home trips={trips} />;
+
+export default HomePage;
