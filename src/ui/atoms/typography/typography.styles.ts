@@ -6,8 +6,8 @@ export const Typography = styled.p<{
   $color: TypographyProps['color'];
   $fontWeight: TypographyProps['fontWeight'];
 }>`
-  ${({ $align, $color, $fontWeight }) => `
+  ${({ $align, $color, $fontWeight, theme }) => `
   text-align: ${$align}; 
-  color: ${$color};
+  color: ${$color ? theme.colors[$color] : theme.colors.black};
   font-weight: ${$fontWeight};`}
 `;

@@ -10,7 +10,8 @@ const theme: Theme = {
   colors: {
     black: 'black',
     gray: 'gray',
-    yellow: 'yellow',
+    yellow: '#ffef00',
+    white: 'white',
   },
 };
 

@@ -1,4 +1,4 @@
-import { Thumbnail, Typography } from 'ui/atoms';
+import { Rating, Thumbnail, Typography } from 'ui/atoms';
 import { Container } from 'ui/template';
 
 import { HomeProps } from './home.types';
@@ -19,17 +19,5 @@ export const Home = ({ trips }: HomeProps) => (
     ) : (
       <Typography el="h1">Something went wrong</Typography>
     )}
-    <Typography el="h1" align="center" color="gray">
-      H1 title
-    </Typography>
-    <Typography el="h2" align="right" color="yellow">
-      H2 title
-    </Typography>
-    <Typography el="h3" align="center">
-      H3 went wrong
-    </Typography>
-    <Typography el="p" fontWeight="900">
-      P title went wrong
-    </Typography>
   </Container>
 );
