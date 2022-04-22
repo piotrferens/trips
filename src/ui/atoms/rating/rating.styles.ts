@@ -11,7 +11,6 @@ export const RatingContainer = styled.div`
 `;
 
 export const Typography = styled(DefaultTypography)`
-  font-size: 18px;
   display: flex;
   align-items: center;
 `;
