@@ -1,12 +1,12 @@
-import { Theme } from '@emotion/react';
 import styled from '@emotion/styled';
+import { Colors } from 'styles/emotion';
 
 export const HalfFilledContainer = styled.div`
   display: flex;
   position: relative;
 `;
 
-export const StarContainer = styled.div<{ $color: keyof Theme['colors'] }>`
+export const StarContainer = styled.div<{ $color: Colors }>`
   color: ${({ theme, $color }) => theme.colors[$color]};
 `;
 

@@ -1,7 +1,5 @@
-import { Theme } from '@emotion/react';
+import { Colors } from 'styles/emotion';
 import { StarProps } from 'ui/atoms/star/star.types';
-
-type Colors = keyof Theme['colors'];
 
 export interface FilledStarProps {
   starFilled: 'halfFilled' | 'filled' | 'empty';

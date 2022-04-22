@@ -12,11 +12,9 @@ export const Rating = ({ value, totalRating = 5, className }: RatingProps) => {
   return (
     <S.Container className={className}>
       <S.RatingContainer>
-        {[...new Array(totalRating)].map((arr, index) => {
-          const typeOfFilledElement = getStarFilled({ rating, currentElement: index + 1 });
-
-          return <FilledStar key={index} starFilled={typeOfFilledElement} />;
-        })}
+        {[...new Array(totalRating)].map((_arr, index) => (
+          <FilledStar key={index} starFilled={getStarFilled({ rating, currentElement: index + 1 })} />
+        ))}
       </S.RatingContainer>
       <S.Typography el="p" fontWeight={'bold'}>
         {value}

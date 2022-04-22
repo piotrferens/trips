@@ -1,5 +1,5 @@
-import { Theme } from '@emotion/react';
+import { Colors } from 'styles/emotion';
 
 export interface StarProps {
-  strokeColor?: keyof Theme['colors'];
+  strokeColor?: Colors;
 }
