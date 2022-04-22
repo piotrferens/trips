@@ -14,6 +14,7 @@ export const Description = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.lightGray};
   border-bottom-right-radius: ${radius};
   border-bottom-left-radius: ${radius};
+  border-top: 0;
 `;
 
 export const Countries = styled(Typography)`
