@@ -1,6 +1,6 @@
 import type { InferGetServerSidePropsType } from 'next';
-import { fetchTrips } from 'api';
-import { Home } from 'ui';
+import { fetchTrips } from 'src/api';
+import { Home } from 'src/ui';
 
 export const getServerSideProps = async () => {
   try {

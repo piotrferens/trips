@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { Colors } from 'styles/emotion';
+import { Colors } from 'src/styles/emotion';
 
 export const HalfFilledContainer = styled.div`
   display: flex;

@@ -1,6 +1,6 @@
-import { Typography } from 'ui/atoms';
-import { TripList } from 'ui/organisms';
-import { Container } from 'ui/template';
+import { Typography } from 'src/ui/atoms';
+import { TripList } from 'src/ui/organisms';
+import { Container } from 'src/ui/template';
 
 import { HomeProps } from './home.types';
 

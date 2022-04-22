@@ -1,4 +1,4 @@
-import { Trip } from 'api';
+import { Trip } from 'src/api';
 
 export interface TripCardProps extends Trip {
   className?: string;

@@ -1,12 +1,10 @@
 import type { AppProps } from 'next/app';
-import { CacheProvider, ThemeProvider } from 'styles';
+import { AppProvider } from 'src/app-provider';
 
 const MyApp = ({ Component, pageProps }: AppProps) => (
-  <CacheProvider>
-    <ThemeProvider>
-      <Component {...pageProps} />
-    </ThemeProvider>
-  </CacheProvider>
+  <AppProvider>
+    <Component {...pageProps} />
+  </AppProvider>
 );
 
 export default MyApp;

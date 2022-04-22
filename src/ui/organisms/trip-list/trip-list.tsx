@@ -1,4 +1,4 @@
-import { Grid, Typography } from 'ui/atoms';
+import { Grid, Typography } from 'src/ui/atoms';
 import { TripListProps } from './trip-list.types';
 import * as S from './trip-list.styles';
 

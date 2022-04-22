@@ -1,4 +1,4 @@
-import { Colors } from 'styles/emotion';
+import { Colors } from 'src/styles/emotion';
 
 export interface StarProps {
   strokeColor?: Colors;

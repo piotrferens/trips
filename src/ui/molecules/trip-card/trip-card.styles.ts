@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { Rating as DefaultRating, Thumbnail as DefaultThumbnail, Typography } from 'ui/atoms';
+import { Rating as DefaultRating, Thumbnail as DefaultThumbnail, Typography } from 'src/ui/atoms';
 
 const radius = '5px';
 

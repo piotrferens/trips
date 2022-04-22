@@ -1,5 +1,5 @@
-import { Colors } from 'styles/emotion';
-import { StarProps } from 'ui/atoms/star/star.types';
+import { Colors } from 'src/styles/emotion';
+import { StarProps } from 'src/ui/atoms/star/star.types';
 
 export interface FilledStarProps {
   starFilled: 'halfFilled' | 'filled' | 'empty';

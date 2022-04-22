@@ -1,4 +1,3 @@
-import { Thumbnail } from 'ui/atoms';
 import * as S from './trip-card.styles';
 import { TripCardProps } from './trip-card.types';
 

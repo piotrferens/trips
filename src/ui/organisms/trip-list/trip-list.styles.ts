@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import { Typography } from 'ui/atoms';
-import { TripCard as DefaultTripCard } from 'ui/molecules';
+import { Typography } from 'src/ui/atoms';
+import { TripCard as DefaultTripCard } from 'src/ui/molecules';
 
 export const Title = styled(Typography)`
   margin-bottom: ${({ theme }) => theme.spacing[3]};

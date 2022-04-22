@@ -1,5 +1,5 @@
 import { CSSProperties, ReactNode } from 'react';
-import { Colors } from 'styles/emotion';
+import { Colors } from 'src/styles/emotion';
 
 export interface TypographyProps {
   el: 'span' | 'p' | 'h1' | 'h2' | 'h3';

@@ -1,3 +1,3 @@
-import { HomePageProps } from 'pages';
+import { HomePageProps } from 'src/pages';
 
 export type HomeProps = HomePageProps;
