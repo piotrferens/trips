@@ -1,12 +1,22 @@
 import styled from '@emotion/styled';
 import { Rating as DefaultRating, Thumbnail as DefaultThumbnail, Typography } from 'ui/atoms';
-import { TripCard } from './trip-card';
+
+const radius = '5px';
 
 export const Thumbnail = styled(DefaultThumbnail)`
-  margin-bottom: ${({ theme }) => theme.spacing[1]};
+  overflow: hidden;
+  border-top-right-radius: ${radius};
+  border-top-left-radius: ${radius};
 `;
 
-export const Description = styled(Typography)`
+export const Description = styled.div`
+  padding: ${({ theme }) => theme.spacing[1]};
+  border: 1px solid ${({ theme }) => theme.colors.lightGray};
+  border-bottom-right-radius: ${radius};
+  border-bottom-left-radius: ${radius};
+`;
+
+export const Countries = styled(Typography)`
   ${({ theme }) => `
   color: ${theme.colors.gray};
   margin-bottom: ${theme.spacing[0]};

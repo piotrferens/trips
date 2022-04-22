@@ -1,3 +1,4 @@
+import { Thumbnail } from 'ui/atoms';
 import * as S from './trip-card.styles';
 import { TripCardProps } from './trip-card.types';
 
@@ -17,13 +18,13 @@ export const TripCard = ({
   minimalPrice,
   previousPrice,
   className,
-}: TripCardProps) => {
-  return (
-    <div className={className}>
-      <S.Thumbnail src={thumbnailUrl} alt={`${title} thumbnail`} />
-      <S.Description el="p" fontWeight="bold">
+}: TripCardProps) => (
+  <div className={className}>
+    <S.Thumbnail src={thumbnailUrl} alt={`${title} thumbnail`} />
+    <S.Description>
+      <S.Countries el="p" fontWeight="bold">
         {countries} Countries, {days} Days
-      </S.Description>
+      </S.Countries>
       <S.Title el="p" fontWeight="bolder">
         {title}
       </S.Title>
@@ -36,6 +37,6 @@ export const TripCard = ({
           Price {formatPrice(previousPrice)}
         </S.PreviousPrice>
       </S.PriceContainer>
-    </div>
-  );
-};
+    </S.Description>
+  </div>
+);
