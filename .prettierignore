@@ -1,3 +1,7 @@
 .next
 .vercel
 coverage
+.env.production.local
+.env.local
+.env.production
+.env
