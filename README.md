@@ -1,4 +1,10 @@
-First, run the development server:
+Install dependencies
+
+```bash
+yarn
+```
+
+To run the development server:
 
 ```bash
 yarn dev
