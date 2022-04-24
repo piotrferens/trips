@@ -3,7 +3,7 @@ import * as S from './filled-star.styles';
 import { FilledStarProps, StarContainerProps } from './filled-star.types';
 
 const StarContainer = ({ color, strokeColor }: StarContainerProps) => (
-  <S.StarContainer $color={color}>
+  <S.StarContainer $color={color} data-testid="rating">
     <Star strokeColor={strokeColor} />
   </S.StarContainer>
 );
@@ -12,7 +12,7 @@ export const FilledStar = ({ starFilled }: FilledStarProps) => {
   switch (starFilled) {
     case 'halfFilled':
       return (
-        <S.HalfFilledContainer>
+        <S.HalfFilledContainer data-testid="rating">
           <S.HalfFilled $color="yellow">
             <Star />
           </S.HalfFilled>

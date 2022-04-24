@@ -41,6 +41,7 @@ export const Rating = styled(DefaultRating)`
 
 export const PriceContainer = styled(Typography)`
   font-size: 12px;
+  display: flex;
 `;
 
 export const Price = styled(Typography)`
@@ -49,4 +50,6 @@ export const Price = styled(Typography)`
 
 export const PreviousPrice = styled(Typography)`
   text-decoration: line-through;
+  display: list-item;
+  margin-left: ${({ theme }) => theme.spacing[3]};
 `;

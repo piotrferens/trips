@@ -4,8 +4,8 @@
     "thumbnailUrl": "https://media.istockphoto.com/photos/young-hipster-couple-visiting-stockholm-picture-id473695458?s=612x612",
     "countries": 11,
     "days": 25,
-    "title": "Sztokholm",
-    "rate": 4.4,
+    "title": "Stockholm",
+    "rate": 4.6,
     "minimalPrice": 2.87,
     "previousPrice": 4.5
   },
@@ -15,7 +15,7 @@
     "countries": 4,
     "days": 13,
     "title": "Florence",
-    "rate": 4.1,
+    "rate": 4.4,
     "minimalPrice": 132.87,
     "previousPrice": 152.5
   },
@@ -25,178 +25,58 @@
     "countries": 3,
     "days": 14,
     "title": "Praga",
-    "rate": 3.4,
+    "rate": 4.5,
     "minimalPrice": 21.87,
     "previousPrice": 46.5
   },
   {
     "id": 4,
     "thumbnailUrl": "https://media.istockphoto.com/photos/young-hipster-couple-visiting-stockholm-picture-id473695458?s=612x612",
-    "countries": 11,
-    "days": 25,
-    "title": "Sztokholm",
-    "rate": 4.4,
-    "minimalPrice": 2.87,
-    "previousPrice": 4.5
+    "countries": 12,
+    "days": 26,
+    "title": "Porto",
+    "rate": 4.7,
+    "minimalPrice": 2.88,
+    "previousPrice": 4.6
   },
   {
     "id": 5,
     "thumbnailUrl": "https://media.istockphoto.com/photos/smiling-young-woman-against-panoramic-view-of-florence-italy-picture-id474216522?s=612x612",
-    "countries": 4,
-    "days": 13,
-    "title": "Florence",
-    "rate": 4.1,
-    "minimalPrice": 132.87,
-    "previousPrice": 152.5
+    "countries": 14,
+    "days": 12,
+    "title": "Milan",
+    "rate": 4.0,
+    "minimalPrice": 132.97,
+    "previousPrice": 152.15
   },
   {
     "id": 6,
     "thumbnailUrl": "https://media.istockphoto.com/photos/prague-czech-republic-picture-id177404364?s=612x612",
-    "countries": 3,
-    "days": 14,
-    "title": "Praga",
-    "rate": 3.4,
-    "minimalPrice": 21.87,
-    "previousPrice": 46.5
+    "countries": 13,
+    "days": 9,
+    "title": "Amsterdam",
+    "rate": 1.8,
+    "minimalPrice": 20.87,
+    "previousPrice": 45.5
   },
   {
     "id": 7,
     "thumbnailUrl": "https://media.istockphoto.com/photos/young-hipster-couple-visiting-stockholm-picture-id473695458?s=612x612",
-    "countries": 11,
-    "days": 25,
-    "title": "Sztokholm",
-    "rate": 4.4,
-    "minimalPrice": 2.87,
-    "previousPrice": 4.5
+    "countries": 19,
+    "days": 21,
+    "title": "Athens",
+    "rate": 2.6,
+    "minimalPrice": 2.19,
+    "previousPrice": 3.5
   },
   {
     "id": 8,
     "thumbnailUrl": "https://media.istockphoto.com/photos/smiling-young-woman-against-panoramic-view-of-florence-italy-picture-id474216522?s=612x612",
-    "countries": 4,
-    "days": 13,
-    "title": "Florence",
-    "rate": 4.1,
-    "minimalPrice": 132.87,
-    "previousPrice": 152.5
-  },
-  {
-    "id": 9,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/prague-czech-republic-picture-id177404364?s=612x612",
-    "countries": 3,
-    "days": 14,
-    "title": "Praga",
-    "rate": 3.4,
-    "minimalPrice": 21.87,
-    "previousPrice": 46.5
-  },
-  {
-    "id": 10,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/young-hipster-couple-visiting-stockholm-picture-id473695458?s=612x612",
-    "countries": 11,
-    "days": 25,
-    "title": "Sztokholm",
-    "rate": 4.4,
-    "minimalPrice": 2.87,
-    "previousPrice": 4.5
-  },
-  {
-    "id": 11,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/smiling-young-woman-against-panoramic-view-of-florence-italy-picture-id474216522?s=612x612",
-    "countries": 4,
-    "days": 13,
-    "title": "Florence",
-    "rate": 4.1,
-    "minimalPrice": 132.87,
-    "previousPrice": 152.5
-  },
-  {
-    "id": 12,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/prague-czech-republic-picture-id177404364?s=612x612",
-    "countries": 3,
-    "days": 14,
-    "title": "Praga",
-    "rate": 3.4,
-    "minimalPrice": 21.87,
-    "previousPrice": 46.5
-  },
-  {
-    "id": 13,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/young-hipster-couple-visiting-stockholm-picture-id473695458?s=612x612",
-    "countries": 11,
-    "days": 25,
-    "title": "Sztokholm",
-    "rate": 4.4,
-    "minimalPrice": 2.87,
-    "previousPrice": 4.5
-  },
-  {
-    "id": 14,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/smiling-young-woman-against-panoramic-view-of-florence-italy-picture-id474216522?s=612x612",
-    "countries": 4,
-    "days": 13,
-    "title": "Florence",
-    "rate": 4.1,
-    "minimalPrice": 132.87,
-    "previousPrice": 152.5
-  },
-  {
-    "id": 15,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/prague-czech-republic-picture-id177404364?s=612x612",
-    "countries": 3,
-    "days": 14,
-    "title": "Praga",
-    "rate": 3.4,
-    "minimalPrice": 21.87,
-    "previousPrice": 46.5
-  },
-  {
-    "id": 16,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/young-hipster-couple-visiting-stockholm-picture-id473695458?s=612x612",
-    "countries": 11,
-    "days": 25,
-    "title": "Sztokholm",
-    "rate": 4.4,
-    "minimalPrice": 2.87,
-    "previousPrice": 4.5
-  },
-  {
-    "id": 17,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/smiling-young-woman-against-panoramic-view-of-florence-italy-picture-id474216522?s=612x612",
-    "countries": 4,
-    "days": 13,
-    "title": "Florence",
-    "rate": 4.1,
-    "minimalPrice": 132.87,
-    "previousPrice": 152.5
-  },
-  {
-    "id": 18,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/prague-czech-republic-picture-id177404364?s=612x612",
-    "countries": 3,
-    "days": 14,
-    "title": "Praga",
-    "rate": 3.4,
-    "minimalPrice": 21.87,
-    "previousPrice": 46.5
-  },
-  {
-    "id": 19,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/young-hipster-couple-visiting-stockholm-picture-id473695458?s=612x612",
-    "countries": 11,
-    "days": 25,
-    "title": "Sztokholm",
-    "rate": 4.4,
-    "minimalPrice": 2.87,
-    "previousPrice": 4.5
-  },
-  {
-    "id": 20,
-    "thumbnailUrl": "https://media.istockphoto.com/photos/smiling-young-woman-against-panoramic-view-of-florence-italy-picture-id474216522?s=612x612",
-    "countries": 4,
-    "days": 13,
-    "title": "Florence",
-    "rate": 4.1,
-    "minimalPrice": 132.87,
-    "previousPrice": 152.5
+    "countries": 16,
+    "days": 16,
+    "title": "Belgrade",
+    "rate": 4.9,
+    "minimalPrice": 139.87,
+    "previousPrice": 159.5
   }
 ]
